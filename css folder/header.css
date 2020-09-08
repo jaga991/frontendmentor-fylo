@@ -16,7 +16,7 @@
 
 
 #header nav {
-    min-width: 270px;
+    width: 270px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,5 +26,26 @@
     text-decoration: none;
     font-family: var(--primary-font);
     font-size: 1.7rem;
-    color: var(--primary-color-db);
+    color: var(--primary-color-vdb);
+    
+}
+
+@media only screen and (max-width: 768px) {
+    #header .logo {
+        width: 85px;
+        height: 30px;
+    }
+
+    
+
+    #header nav a {
+        font-size: 1rem;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #header nav {
+        width: 50%;
+    }
 }
