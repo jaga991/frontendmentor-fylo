@@ -42,8 +42,6 @@
 #section-1 #img-container-1 {
     width: 680px;
     height: 480px;
-    min-width: 400px;
-    min-height: 480px;
     margin-left: 30px;
 }
 
@@ -51,4 +49,45 @@
     width: 100%;
     height: 100%;
     
+}
+
+@media only screen and (max-width: 948px) {
+    #section-1 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #section-1 #intro-container {
+        width: 100%;
+    }
+
+    #section-1 #intro-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    #section-1 #img-container-1 {
+        width: 100%;
+        height: 480px;
+        
+        
+    }
+
+    #section-1 #intro-input {
+        flex-direction: column;
+        align-items: center;
+        height: 80px;
+    }
+
+    #section-1 #intro-input input {
+        box-sizing: border-box;
+        height: 50%;
+        width: 100%;
+    }
+
+    #section-1 #intro-input button {
+        height: 40%;
+        width: 80%;
+        
+    }
 }

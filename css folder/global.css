@@ -27,8 +27,8 @@ body {
 
 .wrapper {
     margin-top: 63px;
-    margin-left: 80px;
-    margin-right: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .main-h1 {
@@ -67,3 +67,9 @@ body {
 }
 
 
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
